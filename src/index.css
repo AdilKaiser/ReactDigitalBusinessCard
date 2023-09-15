@@ -1,0 +1,152 @@
+@font-face {
+  src: url(./assets/fonts/Inter-Bold.ttf);
+  font-family: 'Inter-Bold';
+}
+
+@font-face {
+  src: url(./assets/fonts/Inter-Medium.ttf);
+  font-family: 'Inter-Medium';
+}
+
+@font-face {
+  src: url(./assets/fonts/Inter-Regular.ttf);
+  font-family: 'Inter-Regular';
+}
+
+@font-face {
+  src: url(./assets/fonts/Inter-ExtraLight.ttf);
+  font-family: 'Inter-ExtraLight';
+}
+
+html { font-size:62.5%; }
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+.bg-darkblue { background-color:#23252C;}
+
+.bg-darkgray { background-color:#1A1B21;}
+
+.bg-darkergray { background-color:#161619;}
+
+.bg-blue { background-color:#5093E2;}
+
+.text-white { color:#FFFFFF;}
+
+.text-beige { color:#F3BF99;}
+
+.text-darkerblue { color:#374151;}
+
+.text-lightergray { color:#F5F5F5;}
+
+.text-gray { color:#DCDCDC;}
+
+h1 {
+  font-family: 'Inter-Bold';
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: 'Inter-ExtraLight';
+  font-size: 1.28rem;
+}
+
+h4 {
+  font-family: 'Inter-Bold';
+  font-size: 1.6rem;
+}
+
+p {
+  font-family: 'Inter-Regular';
+  font-size: 1rem;
+}
+
+.d-flex { display:flex; }
+
+.justify-content-center { justify-content:center; }
+
+.align-items-center { align-items:center; }
+
+.page-bg {
+  padding-top:4.4rem;
+  padding-bottom:4.4rem;
+}
+
+.card {
+  width:31.7rem;
+  border-radius:1rem;
+  margin:auto;
+}
+
+.card-content-px {
+  padding-left: 3.6rem;
+  padding-right: 3.6rem;
+}
+
+.info-section .profile-img {
+  width:31.7rem;
+  height:auto;
+}
+
+.info-text { text-align:center;}
+
+.name { padding-top:2.1rem; }
+
+.designation { 
+  padding-top:0.6rem;
+  padding-bottom:0.8rem; 
+}
+
+.website {
+  padding-bottom:1.5rem;
+}
+
+.description { 
+  padding-top:0.5rem;
+  padding-bottom: 2.7rem; 
+}
+
+.buttons-div { padding-bottom:3.3rem;}
+
+.email-button-div { padding-right:1.7rem; }
+
+.info-button {
+  font-family: 'Inter-Medium';
+  font-size: 1.4rem;
+  width: 11.5rem;
+  padding: 0.9rem 1.1rem 0.9rem 1.1rem;
+  border-radius:0.6rem;
+}
+
+.btn-icon-img {
+  width:1.6rem;
+  height:1.6rem;
+  margin-right:0.8rem;
+}
+
+.interests-section .description {
+  padding-bottom:4rem;
+}
+
+footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+footer img {
+  width:2.5rem;
+  height:2.5rem;
+}
+
+.footer-icons-pe { padding-right:2.4rem; }
+
+@media only screen and (max-width: 389px) { html { font-size:50.5%; } }
+
+@media only screen and (max-width: 280px) { html { font-size:40.5%; } }
+
+@media only screen and (max-width: 280px) { html { font-size:30.5%; } }
